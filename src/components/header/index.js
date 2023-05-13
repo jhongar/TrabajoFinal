@@ -1,16 +1,9 @@
 import React from "react";
 import Alert from 'react-bootstrap/Alert';
-//vamos a generar un componente en modo de funcion//
-/*const header= () => {
-    return(
-        <div>
-            <h1>Titulos</h1>
-            
-        </div>
-    );
-};*/
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
+
+//vamos a generar un componente en modo de funcion//
 
 function UncontrolledExample() {
   return (
@@ -30,7 +23,9 @@ function UncontrolledExample() {
       </Tab>
     </Tabs>
   );
+
+ 
 }
 
 export default UncontrolledExample;
-//export default header;
+
