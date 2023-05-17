@@ -1,6 +1,6 @@
 
 import React from 'react';
-import {BrowserRouter as Router, Switch, Route, Link} from "teact-router-dom";
+import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
 
 import logo from './logo.svg';
 import './App.css';
@@ -15,16 +15,16 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Router>
-          <Link to="/"> Inicio</Link>
-          <Link to="/"> Usuario</Link>
-          <Link to="/"> footer</Link>
-          <Link to="/"> header</Link>
-        
+          <Link to="/" className='btn btn-primary'> Inicio</Link>
+          <Link to="/registrar" className='btn btn-primary'> Registrar</Link>
+          <Link to="/footer" className='btn btn-primary'> Imagenes</Link>
+          <Link to="/header" className='btn btn-primary'> Reservar</Link>
+
         </Router>
         <img src={logo} className="App-logo" alt="logo" />
         <Jheader/>
         <p>
-          para tener mas informacion ir al siguiente LINK
+          para tener mas informacion ir al siguiente enlace
         </p>
         <a
           className="Zoologico"
